@@ -1,0 +1,3 @@
+#31
+#docker service rm $(docker service ls -aq)
+docker swarm leave -f
